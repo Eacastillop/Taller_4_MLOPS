@@ -26,6 +26,7 @@ jobs:
       - name: Entrenar modelo
         run: make train
 
+      # Descomenta estas secciones si ya tienes la lógica implementada
       # - name: Validar desempeño del modelo
       #   run: make validate
 
